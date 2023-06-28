@@ -2,7 +2,7 @@ version: v1
 managed:
   enabled: true
   go_package_prefix:
-    default: github.com/CS446-S23-Group35/Server-gRPC
+    default: wastenot
 plugins:
   - name: go
     out: gen
