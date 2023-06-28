@@ -1,1 +1,1 @@
-git submodule update --remote --merge
+cd proto && git pull origin main && cd -
