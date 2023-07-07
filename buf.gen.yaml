@@ -2,11 +2,11 @@ version: v1
 managed:
   enabled: true
   go_package_prefix:
-    default: wastenot
+    default: github.com/CS446-S23-Group35/Server-gRPC/wastenot
 plugins:
   - name: go
-    out: gen
+    out: wastenot
     opt: paths=source_relative
   - name: connect-go
-    out: gen
+    out: wastenot
     opt: paths=source_relative
